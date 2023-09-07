@@ -4,6 +4,200 @@
     "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventarioV6\\SistemaInventarioV6.csproj": {}
   },
   "projects": {
+    "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+        "projectName": "SistemaInventario.AccesoDatos",
+        "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\sephe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sephe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+                "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+              },
+              "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+        "projectName": "SistemaInventario.Modelos",
+        "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+        "packagesPath": "C:\\Users\\sephe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sephe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "projectName": "SistemaInventario.Utilidades",
+        "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\sephe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sephe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventarioV6\\SistemaInventarioV6.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +221,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj"
+              },
+              "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+                "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+              },
+              "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

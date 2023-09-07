@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SistemaInventario.Utilidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SistemaInventario.Utilidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaInventario.Utilidades.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SistemaInventario.Utilidades/1.0.0": {
+      "type": "project",
+      "path": "../SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj",
+      "msbuildProject": "../SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "SistemaInventario.Utilidades >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\sephe\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+              "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
