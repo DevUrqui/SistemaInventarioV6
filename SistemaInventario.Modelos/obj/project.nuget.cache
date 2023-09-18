@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hecR6DM2sFvewq5HWSmUEN8BTHtxdto4u7YSPJlmBZBPixYHnfHZszeUht4rzAXcJ4wdoBbuWnc5+GqqrZe1OA==",
+  "dgSpecHash": "JRc2tOBauIn69C5kesgldk+39/ppIMxdeYGzuXhpLzdYr7CX7U0D4RgbOLYZtoTskiARpwyW7/8qS/JYQ1+Mqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+  "projectFilePath": "D:\\Proyecto_ASP\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -2121,19 +2121,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sephe\\.nuget\\packages\\": {}
+    "C:\\Users\\sephe\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+      "projectUniqueName": "D:\\Proyecto_ASP\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
       "projectName": "SistemaInventario.AccesoDatos",
-      "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+      "projectPath": "D:\\Proyecto_ASP\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
       "packagesPath": "C:\\Users\\sephe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\obj\\",
+      "outputPath": "D:\\Proyecto_ASP\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\sephe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2147,11 +2152,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
-              "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+            "D:\\Proyecto_ASP\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+              "projectPath": "D:\\Proyecto_ASP\\SistemaInventarioV6\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
             },
-            "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
-              "projectPath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+            "D:\\Proyecto_ASP\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+              "projectPath": "D:\\Proyecto_ASP\\SistemaInventarioV6\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
             }
           }
         }
@@ -2199,7 +2204,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

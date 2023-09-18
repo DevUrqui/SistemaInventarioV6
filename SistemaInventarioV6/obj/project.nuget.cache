@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WcFdm/eeFCtFKEWRzqkkSGMlPTF9WL/Uk9K6Ea3Bj5S4pIX/HjJfvKx6JIiO9S0EQyg5VexrORsZtMREw4df+g==",
+  "dgSpecHash": "xTMydQXDbaWZQ2JA/uYKsIpDuMh/yZoLROeL9YfqLrRnu0I1QjFBD1DJIqvIK9h+7z41M9i+nF60P0Y7DY86BQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventarioV6\\SistemaInventarioV6.csproj",
+  "projectFilePath": "D:\\Proyecto_ASP\\SistemaInventarioV6\\SistemaInventarioV6\\SistemaInventarioV6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sephe\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\sephe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

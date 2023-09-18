@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VrCSxF2/q2t/vgEYLqCsExMOtAg0j68G9iXrZoT2CT+zCmX48lPu+mQgkATiGboAgLQCm+wJmkZat7TngsKbeA==",
+  "dgSpecHash": "rQS80qQ0Xcyj0/T5v1GfcJ7o0/byzbJR1sUFYTGiZpWSRHxfU6LIK2HElngx6pMvwEkOl2Hjj1ZIhamGEjvjIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sephe\\source\\repos\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+  "projectFilePath": "D:\\Proyecto_ASP\\SistemaInventarioV6\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sephe\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.21\\microsoft.aspnetcore.cryptography.internal.6.0.21.nupkg.sha512",
     "C:\\Users\\sephe\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.21\\microsoft.aspnetcore.cryptography.keyderivation.6.0.21.nupkg.sha512",
