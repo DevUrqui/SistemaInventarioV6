@@ -2,6 +2,7 @@
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.Modelos;
 using SistemaInventario.Utilidades;
+using System.Runtime.InteropServices;
 
 namespace SistemaInventarioV6.Areas.Admin.Controllers
 {
@@ -86,6 +87,29 @@ namespace SistemaInventarioV6.Areas.Admin.Controllers
 
             await _unidadTrabajo.Guardar();
             return Json(new { success = true, message = "Bodega borrada exitosamente" });
+        }
+
+        [ActionName("ValidarNombre")]
+        public async Task<IActionResult> ValidarNombre(string nombre, int id = 0)
+        {
+            bool valor = false;
+            var lista = await _unidadTrabajo.Bodega.ObtenerTodos();
+
+            if (id == 0)
+            {
+                valor = lista.Any(b => b.Nombre.ToLower().Trim() == nombre.ToLower().Trim());
+            }
+            else
+            {
+                valor = lista.Any(b => b.Nombre.ToLower().Trim() == nombre.ToLower().Trim() && b.Id != id);
+            }
+
+            if (valor)
+            {
+                return Json(new { data = true });
+            }
+
+            return Json(new { data = false });
         }
         #endregion
     }
