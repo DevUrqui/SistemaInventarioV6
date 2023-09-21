@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.Modelos;
+using SistemaInventario.Utilidades;
 
 namespace SistemaInventarioV6.Areas.Admin.Controllers
 {
@@ -47,15 +48,18 @@ namespace SistemaInventarioV6.Areas.Admin.Controllers
             {
                 if(bodega.Id == 0)
                 {
-                    await _unidadTrabajo.Bodega.Agregar(bodega); ;
+                    await _unidadTrabajo.Bodega.Agregar(bodega);
+                    TempData[DS.Exitosa] = "Bodega creada Exitosamente";
                 }
                 else
                 {
                     _unidadTrabajo.Bodega.Actualizar(bodega);
+                    TempData[DS.Exitosa] = "Bodega actualizada Exitosamente";
                 }
                 await _unidadTrabajo.Guardar();
                 return RedirectToAction(nameof(Index));
             }
+            TempData[DS.Error] = "Error al grabar Bodega";
 
             return View(bodega);
         }
