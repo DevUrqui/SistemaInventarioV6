@@ -39,6 +39,27 @@ namespace SistemaInventarioV6.Areas.Admin.Controllers
             return View(bodega);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Upsert(Bodega bodega)
+        {
+            if(ModelState.IsValid)
+            {
+                if(bodega.Id == 0)
+                {
+                    await _unidadTrabajo.Bodega.Agregar(bodega); ;
+                }
+                else
+                {
+                    _unidadTrabajo.Bodega.Actualizar(bodega);
+                }
+                await _unidadTrabajo.Guardar();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(bodega);
+        }
+
         #region API
 
         [HttpGet]
